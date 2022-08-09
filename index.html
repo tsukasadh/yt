@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        
+         <!--LA NAVBAR -->
+        
+         <nav class="navbar">
+           
+            <div class="topnav">
+                  <!--BARRE DE RECHERCHE-->
+                <input type="text" placeholder="Search.." class="btn2">
+                <!--ICONE -->
+                <img src="media/R.png" alt="" class="micro">
+                <img src="media/img_255912.png" alt="" class="caméra">
+                <img src="media/ui_09_of_10_-12-512.webp" alt="" class="cloche">
+               
+              </div>
+           
+              
+            <div class="nav-links">
+                <ul class="nav-menu">
+                    <div class="test">
+                        
+                        
+                        <div class="logo"></div>
+                        <div class="firstblock">
+                            <img src="media/youtube-logo-1-2.png" alt="" class="logonav">
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">Explorer</a></li>
+                            <li><a href="#">Short</a></li>
+                            <li><a href="#">Abonnement</a></li>
+                        </div>
+                
+                        <div class="secondblock">
+                            <li><a href="#">Bibliothèque</a></li>
+                            <li><a href="#">Historique</a></li>
+                            <li><a href="#">VosVidéos</a></li>
+                            <li><a href="#">Vidéo"J'aime"</a></li>
+                        </div>
+                       
+                        <div class="abonnement">
+                            <li><a href=""><h4> Vos Abonnement</h4></a></li>
+                            <li><a href=""> <img src="media/Berton-Silvia.png" alt="" class="bs">sgulu</a></li>
+                            <li> <img src="media/Berton-Silvia.png" alt="" class="bs"><a href="">fdvd</a></li>
+                            <li> <img src="media/Berton-Silvia.png" alt="" class="bs"><a href="">fgqd</a></li>
+                            <li> <img src="media/Berton-Silvia.png" alt="" class="bs"><a href="">dgvdq</a></li>
+                         
+                        
+                        </div>
+                       
+                    </div>
+                    <div class="img">
+                        <div class="icone">
+                            <button><input type="text" placeholder="search"></button>
+                            <img src="media/R.png" alt="" class="icone">
+                            <img src="media/img_255912.png" alt="" class="icone">
+                            <img src="media/télécharger.jpg" alt="" class="icone">
+                            <img src="media/OIP (1).jpg" alt="" class="icone">
+                           
+                            
+                            
+                        </div> 
+                       
+                       
+                        <div class="iconegauche">
+
+                            <img src="media/burger_menu-512 (1).webp" alt="menu-hamburger" class="menu-hamburger">
+                            <img src="media/youtube-logo-1-2.png" alt="" class="logoyt">
+                           
+                        </div>
+                        
+                    </div>    
+                </ul>
+            </div>
+         </nav>
+           <!--L'HAMBURGER-->
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+             <!--LES ICONES DE L'HAMBURGER-->
+            <!--ICONE YTB-->
+            
+            
+          
+            <!--ICONE MENU HAMBURGER-->
+    
+        </div>
+        
+    </header>
+<body>
+  <!--BUTTON NAVIGATION-->
+  <div class="navbtn">
+    <button>tous</button>
+    <button class="btnl">css</button>
+    <button>Programme</button>
+    <button>Dév</button>
+  </div>
+ 
+</body>
+<!--LE PROGRAMME POUR L'HAMBURGER-->
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+       const navLinks = document.querySelector(".test")
+
+       menuHamburger.addEventListener('click',()=>{
+       navLinks.classList.toggle('mobile-menu')
+       })
+    
+</script>
+</html>
